@@ -1,7 +1,7 @@
 //your JS code here. If required.
-const student{
+const student={
 	name="ABC"
 }
 student.__proto__.getKeys=function{
-	
+	return objectKeys(this)
 }
